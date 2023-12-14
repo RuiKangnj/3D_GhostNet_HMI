@@ -1,0 +1,9 @@
+training:
+  batch_size: 32
+  num_workers: 4
+  epochs: 100
+  lr: 0.01
+  optimizer: SGD
+
+dataset:
+  dataset_dir: 'dataset'
